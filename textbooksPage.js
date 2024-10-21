@@ -205,9 +205,8 @@ function generateChecklist() {
 
                 //only let user choose one english class 
                 if (item.department === "English:" && english) { 
-
                   checkbox.checked = false; 
-                  return; 
+                  //return; 
                 }
 
 
@@ -215,7 +214,7 @@ function generateChecklist() {
                   english = true; 
                 } 
 
-                checkbox.checked = true;           
+                //checkbox.checked = true;           
 
                 // Display the selected course in the "Selected Courses" column
                 const selectedCourseItem = document.createElement("div");

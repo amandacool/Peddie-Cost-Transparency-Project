@@ -33,16 +33,17 @@ ul {
 
 }
 
+
 #navbar_rectangle {
-  background-color: #d3cece;
-  border-radius: 50px; /* Add rounded corners to the border */
+  background-color:#005e9f; /* #d3cece; */
+  border-radius: 50px; /* Add rounded corners to the border */ 
   border: 3px solid #2b75c5; /* Add a border around the search container */
   align-items: center;
   text-align: center;
   font-size: 15px;
   height: 100px;
 
-}
+} 
 
 
 #column_Instruction {
@@ -249,5 +250,3 @@ ul {
   margin-top: 10px; /* Adds some space above the total cost display */
   font-weight: bold; /* Makes the text bold */
 }
-
- 
